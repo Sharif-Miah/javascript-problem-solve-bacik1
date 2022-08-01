@@ -8,7 +8,18 @@
 // solving bleow :
 
 // a) 
+// i) a) Find the index of "Banana"
 var fruits = ['Apple', 'Banana', 'Orange'];
 
 var findIndex = fruits.indexOf('Banana')
 console.log(findIndex);
+
+// a) 
+
+// ii) replace 'Banana' with 'Mango'.
+
+var fruits = ['Apple', 'Banana', 'Orange'];
+
+fruits[2] = 'Mango'
+
+console.log(fruits);
