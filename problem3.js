@@ -4,24 +4,24 @@
 
 // solving below :
 
-var num1 = 13;
-var num2 = 79;
-var num3 = 45;
+// var num1 = 13;
+// var num2 = 79;
+// var num3 = 45;
 
 
-if (num1 > num2) {
-    if (num1 > num3) {
-        console.log(num1);
-    } else {
-        console.log(num3);
-    }
-} else {
-    if (num2 > num3) {
-        console.log(num2);
-    } else {
-        console.log(num3);
-    }
-}
+// if (num1 > num2) {
+//     if (num1 > num3) {
+//         console.log(num1);
+//     } else {
+//         console.log(num3);
+//     }
+// } else {
+//     if (num2 > num3) {
+//         console.log(num2);
+//     } else {
+//         console.log(num3);
+//     }
+// }
 
 
 
@@ -36,12 +36,18 @@ var firstSide = 9;
 var secondSide = 8;
 var thirdSide = 9;
 
-if (firstSide == secondSide && secondSide == thirdSide) {
-    console.log('Two side is  not equel');
-} else if (firstSide == thirdSide) {
-    console.log('Two side is Equel');
+if (firstSide === secondSide) {
+    if (firstSide === thirdSide) {
+        console.log(firstSide + ' and ' + thirdSide + ' is equel.');
+    } else {
+        console.log(firstSide + ' and ' + secondSide + ' is equel.');
+    }
 } else {
-    console.log('We do not find equel number');
+    if (secondSide === thirdSide) {
+        console.log(secondSide + ' and ' + thirdSide + ' is equel.');
+    } else {
+        console.log(firstSide + ' and ' + thirdSide + ' is equel.');
+    }
 }
 
 
