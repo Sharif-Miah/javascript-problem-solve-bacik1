@@ -4,21 +4,27 @@
 
 // solving below :
 
-var a = 13;
-var b = 79;
-var c = 45;
+var num1 = 13;
+var num2 = 79;
+var num3 = 45;
 
-if (a > b) {
-    console.log(a + ' Number is largest number');
-} else if (b > c) {
-    console.log(b + ' Number is larget number');
-} else if (c > b) {
-    console.log(c + ' Number is largest number');
-} else if (c < a) {
-    console.log(c + 'Number is largest number');
+
+if (num1 > num2) {
+    if (num1 > num3) {
+        console.log(num1);
+    } else {
+        console.log(num3);
+    }
 } else {
-    console.log('We cant not find largest number');
+    if (num2 > num3) {
+        console.log(num2);
+    } else {
+        console.log(num3);
+    }
 }
+
+
+
 
 // 2)
 
@@ -37,4 +43,8 @@ if (firstSide == secondSide && secondSide == thirdSide) {
 } else {
     console.log('We do not find equel number');
 }
+
+
+
+
 
